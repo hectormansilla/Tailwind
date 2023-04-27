@@ -2,19 +2,19 @@ function App() {
   
   return (
 
-      <div className="container">
-        <div className="grid grid-flow-col grid-rows-3 grid-cols-4 gap-4">
-          <div className="bg-blue-100">1</div>
-          <div className="bg-blue-200">2</div>
-          <div className="bg-blue-300">3</div>
-          <div className="bg-blue-400">4</div>
-          <div className="bg-blue-500">5</div>
-          <div className="bg-blue-600">6</div>
-          <div className="bg-blue-700">7</div>
-          <div className="bg-blue-800">8</div>
-          <div className="bg-blue-900">9</div>
-        </div>  
+    <div className="container mx-auto py-12">
+      <div className="grid grid-cols-3 gap-6">
+        <div className="col-span-2">
+          <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/r1ySsbIA7EU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div className="bg-red-400 aspect-square">
+
+          </div>
+        </div>
+        <div className="col-span-1 bg-blue-200">
+
+        </div>
       </div>
+    </div>
 
   )
 }
